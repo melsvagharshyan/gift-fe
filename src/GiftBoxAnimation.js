@@ -80,7 +80,7 @@ export default function GiftBoxAnimation() {
               </h4>
             </div>
           ) : (
-            <div style={{ marginTop: "70px" }}>
+            <div style={{ marginTop: "20px" }}>
               <div>
                 <h2 style={{ color: "violet", textShadow: "violet  0 0 20px" }}>
                   təbrik edirəm
