@@ -112,7 +112,7 @@ export default function GiftBoxAnimation() {
             </div>
           )}
 
-          <div className="img-container ">
+          <div className="img-container">
             <button className="box" onClick={() => animate()}>
               <img src={box} alt="box" />
             </button>
