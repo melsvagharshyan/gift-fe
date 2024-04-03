@@ -71,7 +71,7 @@ export default function GiftBoxAnimation() {
         <>
           <Confetti open={jump === "jump"} />
           {!salam ? (
-            <div style={{ marginTop: "270px" }}>
+            <div style={{ marginTop: "180px" }}>
               <h2 style={{ color: "white", textShadow: "#f5f5f5 0 0 20px" }}>
                 Salam!
               </h2>
@@ -113,7 +113,6 @@ export default function GiftBoxAnimation() {
           )}
 
           <div className="img-container ">
-            {/* <img className={`kuku ${jump}`} src={kuku} alt="kuku" /> */}
             <button className="box" onClick={() => animate()}>
               <img src={box} alt="box" />
             </button>
